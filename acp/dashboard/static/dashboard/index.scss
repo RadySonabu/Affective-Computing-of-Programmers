@@ -1,0 +1,11 @@
+body
+  text-align: center
+  
+#donut
+  &-icing
+    fill: #FA9CB6
+    transition: fill 3s ease-out
+  &:hover
+    cursor: pointer
+    #donut-icing
+      fill: #4a8af4
