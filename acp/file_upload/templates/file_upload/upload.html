@@ -1,0 +1,49 @@
+{% extends 'dashboard/base.html' %}
+
+{% load crispy_forms_tags %}
+{% block content %}
+<style>
+    label[for="id_document"]{
+      display: inline-block; 
+      margin-bottom: .5rem; 
+      background: white;
+      width: 100% ;
+      border-radius: 5px;
+      background-color: orange;
+    }
+
+    label[for="id_description"]{
+      display: inline-block; 
+      margin-bottom: .5rem; 
+      background: white;
+      width: 100% ;
+      border-radius: 5px;
+      background-color: orange;
+    }
+    
+  </style>
+  
+  <div class="col-md-auto" style="padding-top: 5rem;">
+    
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+
+
+     {{form|crispy}} 
+
+     
+      <button class="btn btn-warning " style="width: 100%;">Upload</button>
+    
+    </form>
+
+  </div>
+  <div class="col-md-auto">
+    
+    {% block image %}
+      
+    {% endblock image %}
+      
+  </div>
+
+      
+{% endblock %}
