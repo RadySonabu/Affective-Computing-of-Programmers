@@ -10,5 +10,5 @@ def model_form_upload(request):
     else:
         form = DocumentForm()
     return render(request, 'file_upload/upload.html', {
-        'form': form
+        'form': form, 'title':'Upload File',
     })

@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     
     'dashboard',
     'file_upload',
+    'file_download',
+    'classifier',
 
     'crispy_forms',
 ]

@@ -23,8 +23,8 @@
     
 
     <div  style="background: white; width: 100%; height:100vh">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-403a40 pl-5 pr-5" style=" background: #403a40; width: 100%;">
-            <a class="navbar-brand" href="#">Affective Computing of Programmers</a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-403a40 pl-5 pr-5" style=" background: #cc8706; width: 100%;">
+            <a class="navbar-brand" href="{% url 'file_upload' %}">Affective Computing of Programmers</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -36,7 +36,9 @@
                 
               </ul>
               <span class="navbar-text">
-                Upload File
+                {% if title %}
+                  {{title}}
+                {% endif %}
               </span>
             </div>
           </nav>
