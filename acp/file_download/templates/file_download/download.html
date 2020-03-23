@@ -2,7 +2,69 @@
 
 {% load crispy_forms_tags %}
 {% block content %}
-Download
 
-      
+
+<div id="container" style="width: 100%; " class="text-center p-3 ">
+    <canvas id="pie-chart">
+       
+    </canvas>
+    <div class="m-3">
+        <h3>The outstanding emotion is <div style="color: {{color}};">{{emotion}}</div>
+            
+
+        </h3>
+    </div>
+    
+
+    <a href="{% url 'download-excel' %}" >
+        <button class="btn btn-primary m-3">Download as excel file</button></a>
+    
+        <a href="{% url 'file_upload' %}" >
+            <button class="btn btn-warning m-3">Upload another file</button></a>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+  <script>
+
+    var config = {
+      type: 'doughnut',
+      data: {
+        datasets: [{
+          data: [{{happy}},{{panic}}, {{bored}}, {{frustrated}}],
+          backgroundColor: [
+            'orange', 'violet', 'gray', 'red', 
+          ],
+          label: 'Emotions'
+        }],
+        labels: ['Happy', 'Panic', 'Bored', 'Frustrated']
+      },
+      options: {
+        responsive: true,
+        legend: {
+            display: true,
+            labels: {
+                fontColor: 'black',
+                
+            }
+        
+            
+        },
+        tooltips: {
+            callbacks: {
+                
+                labelTextColor: function(tooltipItem, chart) {
+                    return '#543453';
+                }
+            }
+        }
+      }
+    };
+
+    window.onload = function() {
+      var ctx = document.getElementById('pie-chart').getContext('2d');
+      window.myPie = new Chart(ctx, config);
+    };
+
+  </script>
+
 {% endblock %}

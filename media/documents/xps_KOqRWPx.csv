@@ -1,0 +1,87 @@
+data_label,time_start,time_end,emotion,keystrokes,backspace ,shift ,function,ctrl,equals,letter,others,enter,spacebar,arrow,tab,height,width
+1,0,9,Happy, f8 ctrl_l\x13a.py,0,0,1,1,0,0,0,0,0,0,0,2,0
+2,10,20,Panic," shift Su= backspace  backspace  backspace si backspace  backspace  shift  shift  shift  shift  shift  shift Z=== backspace  backspac0e backspace  backspace  backspace size  backspace - backspace =  backspace  backspace  backspace  backspace  backspace  backspace 
+",18,7,0,0,5,0,2,1,0,0,0,30,3
+3,21,26,Bored,"size = int  shift (""""inout backspace  backspace  backspace put  backspace  right shift ( shift "" shift Enter the range  right left left shift : right right right right
+pei backspace ri backspace  backspace  backspace rei backspace  backspace int  backspace  shift ( shift ""\\n  shift Fk backspace lot backspace y;d backspace  backspace """"d backspace  backspace  backspace yd""""s  backspace  backspace  backspace s backspace """"s triangle with u backspace number  backspace  shift : \\n right right right
+
+k = 1",27,9,0,0,1,57,21,10,11,11,0,37,53
+1,27,121,Happy," shift  shift  shift For i in angr backspace  backspace  backspace  backspace range  shift (i,size  shift +1  backspace  right shift : k = k  shift +1
+print shift (
+ backspace  backspace  backspace  down
+pein backspace  backspace  backspace rint  shift ( shift ""\\n right right
+print  shift ( shift ""\\n  shift Floyd""""s  shift T backspace  shift Trin backspace angle with  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift *  backspace """"s  backspace  shift : \\n right
+ backspace  backspace  rightprint backspace  backspace  backspace  backspace  backspace 
+print  backspace  shift < backspace  shift (k,end = 11 backspace  backspace  shift  shift """" right
+ shift  backspace  backspace  shift :",11,11,0,3,2,41,17,10,12,4,0,27,43
+4,122,172,Frustrated,fo backspace  backspace  backspace p backspace ,4,0,0,0,0,2,0,0,0,0,0,4,0
+1,173,199,Happy,"for i n=u backspace  backspace  backspace in rn backspace ange  shift (i, size  shift + i  backspace  shift ) right shift :
+ shift F backspace for j in range  backspace  shift (i,i shift _ backspace  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift  shift +1 right shift :
+print  backspace  shift ( shift "" backspace """" shift * right,end  backspace  =  shift "" right right
+",15,8,0,1,4,26,12,8,9,9,0,28,38
+4,200,293,Frustrated,"pri
+ shift ( right
+prin",0,1,0,0,0,7,1,3,0,1,0,1,5
+2,294,304,Panic," shift ( shift ""\\n right right right] backspace 
+ty r backspace  backspace  backspace  backspace  backspace py 
+ty r backspace  backspace  backspace  backspace  backspace py a.py
+12 backspace  backspace 4",13,2,0,0,0,11,9,4,3,3,0,15,19
+4,305,323,Frustrated,12 backspace  backspace 4,2,0,0,0,0,0,3,0,0,0,0,2,3
+1,324,363,Happy, ctrl_l\x13 down right down right down shift _r left right left right left left right right left left left left left left left left left left left left up ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l ctrl_l DELETED ,0,1,0,13,0,0,0,0,0,25,0,14,25
+4,0,45,Frustrated," alt_l ctrl_l delete f8 f8 f8 f8prit backspace nt  backspace  backspace  backspace  backspace  backspace  backspace  shift _rP backspace print = backspace def  shift _r( right right down leftprint === backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace  backspace /siz backspace  backspace  backspace  backspace /siz== backspace  backspace  backspace  backspace  backspace  backspace  shift _rSize = int shift _r(ip backspace nput  backspace  shift _r( shift _r"""" left shift _rEnter the  shift _r? backspace  shift _rRange  shift _r:  backspace / backspace \\t right right right
+ shift _rO backspace  shift _rPrint  insert backspace  shift _r( shift _r""\\n shift _rFlo backspace  backspace  backspace  backspace  backspace \\nl backspace  backspace n shift _rFl backspace  backspace floyd  backspace """""""" backspace s  backspace  shift _r  shift _rTrianglel  backspace  backspace  backspace le backspace  backspace e  shift _rWith  shift _rNumbers  shift _r:\\n right right
+",21,18,4,0,6,27,48,6,15,7,0,49,76
+2,46,49,Panic," shift _rK =1 left  right up up up up tab down down up= backspace  backspace  down dow
+",2,1,2,0,0,0,1,1,2,11,1,5,16
+4,50,155,Frustrated," up up up up tab down down up= backspace  backspace  down down
+ shift _rFor  backspace  backspace  backspace fir backspace  backspace  backspace  backspace for  f8 left shift _rI in range  backspace  backspace  backspace  backspace  backspace  backspace  shift _rA backspace  shift _rRAn
+  backspace  shift _r( shift _r!,  shift _rSize
+  shift _r+ shift _r1 backspace  backspace  shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r+1 left  right right shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r:  shift _rPei backspace  backspace  backspace  backspace  shift _rPri
+",22,11,0,0,0,41,15,7,15,17,1,33,55
+3,156,167,Bored," shift _r( left rightk,  shift _rEd  backspace  backspace  backspace end  backspace =  shift _r"""" right  shift _r:  shift _rK =  shift _r: backspace  shift _rK shift _r+ left1 backspace   right1 left  right
+ shift _rPrin
+ shift _r()",6,10,0,0,2,21,17,4,9,9,0,18,39
+4,168,199,Frustrated," shift _rPri
+ shift _r( shift _r""\\n right right
+ shift _rPrinyt shift _r( shift _r shift _r"""" left left backspace  shift _r( right right left backspace  right right shift _r) left\\n  shift _r shift _rFloyd left left left left left left left== backspace  backspace  backspace  backspace  right right right right left left left left\\ right right right right right right right  backspace """"s  shift _rTriangle with  shift _r* s right shift _r:\\d shift _r"" left left right backspace  shift _r?D backspace  backspace  shift _rD backspace  backspace  right right
+for  shift _rI  backspace  backspace i  backspace  backspace  shift _rI in  shift _rRnag
+  shift _r( shift _r"" shift _rI backspace  backspace 1, si
+  shift _r+ 1  backspace  right  shift _r: for  shift _rK backspace  shift _rJ in  shift _rRange  shift _r(1, i shift _r+ shift _rI backspace 1 shift _r) left left left left left left left backspace  shift _r( right right right right right right right shift _r
+
+Prin",11,48,0,0,7,63,85,14,18,15,0,66,132
+1,200,214,Happy," shift _r("""""""" left shift _r* right,  shift _rEngd backspace  backspace d  shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r+ shift _r"""" down  left left left left right  right right
+
+print shift _r()
+o backspace print shift _r( shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r"" shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r shift _r|n ctrl_l\x13
+",3,64,0,1,0,41,76,9,7,12,0,68,104
+4,215,244,Frustrated,"cd  backspace  backspace  backspace  backspace  ctrl_l\x1a ctrl_l\x13 backspace  backspace run fik= backspace  backspace le   backspace a.py 
+p backspace py a  backspace . backspace .py
+ backspace  backspace  backspace  backspace  uppypy a.py
+ ctrl_l\x13py a.py
+ backspace  ctrl_l\x13py ap backspace .py
+ backspace  right right backspace 
+ ctrl_l ctrl_l\x13 up
+ backspace  shift _r shift _r:: backspace  backspace  down shift _r: ctrl_l\x13 up
+ backspace  shift _r: ctrl_l\x13 up
+ backspace  down ctrl_l\x13 up",25,11,4,7,0,74,81,9,11,18,0,47,119
+2,245,247,Panic,"  shift _r:  ctrl_l\x13 up up up
+ backspace  up right right backspace  ctrl_l\x13 up
+ ctrl_l\x18 ctrl_l\x13 up
+ backspace  backspace p ctrl_l\x13 up
+ backspace  backspace  ctrl_l\x13 up",6,1,0,6,0,0,65,5,0,9,0,13,79
+4,248,252,Frustrated," backspace  ctrl_l\x13 up
+ backspace  backspace  backspace  backspace  down backspace  backspace  ctrl_l\x13 up
+ down down down]
+ backspace  backspace 
+ ctrl_l ctrl_l\x16",10,0,0,4,0,0,51,5,0,4,0,14,60
+1,253,264,Happy,"
+ down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down down up up up up up ctrl_l\x03 ctrl_l\x16 backspace  backspace  ctrl_l\x13 up
+6
+ ctrl_l\x03 ctrl_l\x16 ctrl_l\x04\x13 up
+9",2,0,0,6,0,0,78,6,0,47,0,8,131
+4,265,318,Frustrated,"  ctrl_l\x03 ctrl_l\x16 ctrl_l\x13 up
+7 backspace 1
+3
+ up up
+3",1,0,0,1,0,1,6,5,0,3,0,2,14
+1,318,329,Happy, f8 cmd ctrl_l shift  shift  shift  shift  shift  esc,0,5,1,1,0,0,2,0,0,0,0,7,2
