@@ -1,12 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .resources import Documents
-from file_upload.models import Emotion
+from file_upload.models import Emotion, Document
 
 
 def download(request):
     emotion = Emotion.objects.all()
-
+    description = Document.objects.all().order_by("-uploaded_at")[0]
     for e in emotion:
         happy = e.happy
         panic = e.panic
@@ -37,6 +37,7 @@ def download(request):
             "frustrated": frustrated,
             "emotion": emotion_1,
             "color": color,
+            "description": description,
         },
     )
 

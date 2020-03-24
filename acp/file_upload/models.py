@@ -19,10 +19,9 @@ class Document(models.Model):
 
 
 class Emotion(models.Model):
+
     happy = models.IntegerField()
     panic = models.IntegerField()
     bored = models.IntegerField()
     frustrated = models.IntegerField()
 
-    def __str__(self):
-        return self.happy

@@ -4,12 +4,12 @@
 {% block content %}
 
 
-<div id="container" style="width: 100%; " class="text-center p-3 ">
+<div id="container text-center" style="width: 60%; " class="text-center p-3 ">
     <canvas id="pie-chart">
        
     </canvas>
     <div class="m-3">
-        <h3>The outstanding emotion is <div style="color: {{color}};">{{emotion}}</div>
+        <h3>The outstanding emotion of student <span style="color: blue;">{{description}}</span> is <div style="color: {{color}};">{{emotion}}</div>
             
 
         </h3>
@@ -53,10 +53,11 @@
             callbacks: {
                 
                 labelTextColor: function(tooltipItem, chart) {
-                    return '#543453';
+                    return 'white';
                 }
             }
         }
+        
       }
     };
 

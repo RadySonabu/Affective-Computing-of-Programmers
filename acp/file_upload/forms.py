@@ -11,5 +11,6 @@ class DocumentForm(forms.ModelForm):
         )
         labels = {
             "document": "SELECT CSV FILE",
+            "description": "Input the student number",
         }
         widgets = {"document": forms.FileInput(attrs={"accept": ".csv"})}
